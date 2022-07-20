@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./asserts/font/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Koulen&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musics</title>
+</head>
+<body>
+<div class="main">
+  
+    <div class="player">
+        <div class="image-song">
+            <img class="img-song" src="" alt="">
+        </div>
+        <h2 class="name-song"></h2>
+        <span class="name-singer"></span>
+        <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+        <div class="control">
+            <div class="btn btn-repeat">
+              <i class="fa-solid fa-repeat"></i>
+              </div>
+              <div class="btn btn-prev">
+                <i class="fas fa-step-backward"></i>
+              </div>
+              <div class="btn btn-toggle-play">
+                <i class="fas fa-pause icon-pause"></i>
+                <i class="fas fa-play icon-play"></i>
+              </div>
+              <div class="btn btn-next">
+                <i class="fas fa-step-forward"></i>
+              </div>
+              <div class="btn btn-random">
+                <i class="fas fa-random"></i>
+              </div>
+            </div>
+            <audio id="audio" src=""></audio>
+
+    </div>
+    <div class="playlist">
+       
+    </div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="./app.js"></script>
+</html>
